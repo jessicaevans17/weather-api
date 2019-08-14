@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html>
   <head lang="en">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Weather Api</title>
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="stylesheet" href="/screen.css">
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="/screen.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Vollkorn&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1 class='hello-world'></h1>
+    <header class="header">
+      <h1 class="title">Cool Fun Weather Finder</h1>
+    </header>
+    <main class="main-section">
+      <div class="display-weather"></div>
+      <img
+        class="weather-image"
+        src="assets/sunglasssun.jpg"
+        alt="clipart of beefy sun wearing sunglasses"
+      />
+      <section class="find-weather">
+        <input
+          type="text"
+          class="input-field border-style"
+          placeholder="Type in City or Zip Code"
+        />
+        <button class="search border-style">Slam IT!</button>
+      </section>
+    </main>
     <script src="/main.js" charset="utf-8"></script>
   </body>
 </html>
